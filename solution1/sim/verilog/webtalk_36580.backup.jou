@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Sep 14 14:06:18 2021
+# Process ID: 36580
+# Current directory: C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog
+# Command line: wbtcv.exe -mode batch -source C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog/xsim.dir/VecDotProduct/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog/webtalk.log
+# Journal file: C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog/xsim.dir/VecDotProduct/webtalk/xsim_webtalk.tcl -notrace

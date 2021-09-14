@@ -1,2 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog"/>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:04:56.980+0700" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'VecDotProduct.entry43' to 'VecDotProduct_entry43'." projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:04:45.838+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1449] Process VecReader1 has both a predecessor and reads an input from its caller (see the GUI dataflow viewer). This may lead to lower throughput. Consider copying this input via a predecessor process." projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:04:45.739+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1449] Process VecReader has both a predecessor and reads an input from its caller (see the GUI dataflow viewer). This may lead to lower throughput. Consider copying this input via a predecessor process." projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:04:45.722+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 200-786] Detected dataflow-on-top in function  'VecDotProduct'  with default interface mode 'ap_ctrl_hs'. Overlapped execution of successive kernel calls will not happen unless interface mode 'ap_ctrl_chain' is used (or 'ap_ctrl_none' for a purely data-driven design).&#xD;&#xA;Resolution: For help on HLS 200-786 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-786.html" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:04:42.070+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 200-805] An internal stream 'fifoC3.stream_' (MBKM-Tutorial5/Top.cpp:16) with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma." projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:04:41.821+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: MBKM-Tutorial5/Stream.h:504:9" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:04:29.439+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: MBKM-Tutorial5/Stream.h:502:9" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:04:20.471+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: MBKM-Tutorial5/Stream.h:500:9" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:04:20.444+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5324] unused parameter 'name': MBKM-Tutorial5/Stream.h:354:35" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:04:20.424+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: MBKM-Tutorial5/Stream.h:504:9" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:03:52.753+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: MBKM-Tutorial5/Stream.h:502:9" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:03:52.728+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: MBKM-Tutorial5/Stream.h:500:9" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:03:52.705+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5324] unused parameter 'name': MBKM-Tutorial5/Stream.h:354:35" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:03:52.687+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: MBKM-Tutorial5/Stream.h:504:9" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:03:36.165+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: MBKM-Tutorial5/Stream.h:502:9" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:03:36.151+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-1535] 'Resource' is deprecated, and it will be removed in future release: MBKM-Tutorial5/Stream.h:500:9" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:03:36.135+0700" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5324] unused parameter 'name': MBKM-Tutorial5/Stream.h:354:35" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:03:36.123+0700" type="Warning"/>
+      </synLog>
+      <simLog>
+        <logs message="WARNING: [VRFC 10-3609] overwriting previous definition of interface 'nodf_module_intf' [C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog/nodf_module_interface.sv:4]" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:06:02.447+0700" type="Warning"/>
+        <logs message="WARNING: [VRFC 10-3609] overwriting previous definition of interface 'nodf_module_intf' [C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog/nodf_module_interface.sv:4]" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:06:02.418+0700" type="Warning"/>
+        <logs message="WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_process_intf' [C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog/df_process_interface.sv:4]" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:06:02.363+0700" type="Warning"/>
+        <logs message="WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_process_intf' [C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog/df_process_interface.sv:4]" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:06:02.333+0700" type="Warning"/>
+        <logs message="WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_fifo_intf' [C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog/df_fifo_interface.sv:4]" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:06:02.308+0700" type="Warning"/>
+        <logs message="WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_fifo_intf' [C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1/sim/verilog/df_fifo_interface.sv:4]" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:06:02.278+0700" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-368] AXI_master port 'ddr2' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.&#xD;&#xA;   Build using &quot;D:/xilinx/vitis/2020.1/tps/win64/msys64/mingw64/bin/g++&quot;&#xD;&#xA;   Compiling apatb_VecDotProduct.cpp&#xD;&#xA;   Compiling Top.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Compiling InterfaceModule.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Compiling ComputationModule.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Compiling Top_tb.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Generating cosim.tv.exe" projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:05:58.297+0700" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-369] AXI_master port 'ddr1' has a depth of '10000'. Insufficient depth may result in simulation mismatch or freeze." projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:05:46.572+0700" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-369] AXI_master port 'ddr0' has a depth of '10000'. Insufficient depth may result in simulation mismatch or freeze." projectName="MBKM-Tutorial5" solutionName="solution1" date="2021-09-14T14:05:46.558+0700" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

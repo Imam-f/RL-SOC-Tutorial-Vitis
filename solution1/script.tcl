@@ -18,7 +18,7 @@ add_files -tb MBKM-Tutorial5/Top_tb.cpp -cflags "-DHLSLIB_SYNTHESIS -std=c++11"
 open_solution "solution1" -flow_target vivado
 set_part {xczu7ev-ffvc1156-2-e}
 create_clock -period 10 -name default
-config_interface  -default_slave_interface none -m_axi_addr64=0 -m_axi_alignment_byte_size 0  -m_axi_latency 0 -m_axi_max_bitwidth 1024 -m_axi_max_read_burst_length 16 -m_axi_max_widen_bitwidth 0 -m_axi_max_write_burst_length 16 -m_axi_min_bitwidth 8 -m_axi_num_read_outstanding 16 -m_axi_num_write_outstanding 16 -m_axi_offset off -register_io off 
+config_interface  -default_slave_interface none -m_axi_addr64=0 -m_axi_alignment_byte_size 0 -m_axi_auto_max_ports=0 -m_axi_latency 0 -m_axi_max_bitwidth 1024 -m_axi_max_read_burst_length 16 -m_axi_max_widen_bitwidth 0 -m_axi_max_write_burst_length 16 -m_axi_min_bitwidth 8 -m_axi_num_read_outstanding 16 -m_axi_num_write_outstanding 16 -m_axi_offset off -register_io off -s_axilite_data64=0
 source "./MBKM-Tutorial5/solution1/directives.tcl"
 csim_design
 csynth_design

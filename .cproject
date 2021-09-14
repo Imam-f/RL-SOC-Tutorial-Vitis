@@ -165,13 +165,13 @@
                         						
                         <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.17304395.969325826" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.17304395">
                             							
-                            <option id="gnu.cpp.compiler.option.preprocessor.def.1510091660" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1510091660" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
                                 								
                                 <listOptionValue builtIn="false" value="HLSLIB_SYNTHESIS"/>
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.include.paths.1087896080" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                            <option id="gnu.cpp.compiler.option.include.paths.1087896080" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
                                 								
                                 <listOptionValue builtIn="false" value="D:/xilinx/vitis/2020.1/include/ap_sysc"/>
                                 								
@@ -187,7 +187,9 @@
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.other.other.897511912" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            <option id="gnu.cpp.compiler.option.other.other.897511912" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.71183680" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                             						
                         </tool>
                         					
@@ -203,13 +205,13 @@
                         						
                         <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.17304395.1074481900" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.17304395">
                             							
-                            <option id="gnu.cpp.compiler.option.preprocessor.def.969180066" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.969180066" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
                                 								
                                 <listOptionValue builtIn="false" value="HLSLIB_SYNTHESIS"/>
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.include.paths.1437201343" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                            <option id="gnu.cpp.compiler.option.include.paths.1437201343" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
                                 								
                                 <listOptionValue builtIn="false" value="D:/xilinx/vitis/2020.1/include/ap_sysc"/>
                                 								
@@ -225,7 +227,9 @@
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.other.other.607642452" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            <option id="gnu.cpp.compiler.option.other.other.607642452" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1594158097" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                             						
                         </tool>
                         					
@@ -239,13 +243,13 @@
                         						
                         <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.17304395.2113019096" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.17304395">
                             							
-                            <option id="gnu.cpp.compiler.option.preprocessor.def.1486522640" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1486522640" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
                                 								
                                 <listOptionValue builtIn="false" value="HLSLIB_SYNTHESIS"/>
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.include.paths.997728310" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                            <option id="gnu.cpp.compiler.option.include.paths.997728310" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
                                 								
                                 <listOptionValue builtIn="false" value="D:/xilinx/vitis/2020.1/include/ap_sysc"/>
                                 								
@@ -261,7 +265,9 @@
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.other.other.291484114" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            <option id="gnu.cpp.compiler.option.other.other.291484114" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.933482895" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                             						
                         </tool>
                         					
@@ -273,13 +279,13 @@
                         						
                         <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.17304395.1147665327" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.17304395">
                             							
-                            <option id="gnu.cpp.compiler.option.preprocessor.def.1121926167" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1121926167" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
                                 								
                                 <listOptionValue builtIn="false" value="HLSLIB_SYNTHESIS"/>
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.include.paths.461508951" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                            <option id="gnu.cpp.compiler.option.include.paths.461508951" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
                                 								
                                 <listOptionValue builtIn="false" value="D:/xilinx/vitis/2020.1/include/ap_sysc"/>
                                 								
@@ -295,7 +301,9 @@
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.other.other.597808909" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            <option id="gnu.cpp.compiler.option.other.other.597808909" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1287378382" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                             						
                         </tool>
                         					
@@ -457,13 +465,13 @@
                         						
                         <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1713276612.1753320818" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1713276612">
                             							
-                            <option id="gnu.cpp.compiler.option.preprocessor.def.1959912176" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.1959912176" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
                                 								
                                 <listOptionValue builtIn="false" value="HLSLIB_SYNTHESIS"/>
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.include.paths.1905745469" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                            <option id="gnu.cpp.compiler.option.include.paths.1905745469" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
                                 								
                                 <listOptionValue builtIn="false" value="D:/xilinx/vitis/2020.1/include/ap_sysc"/>
                                 								
@@ -479,7 +487,9 @@
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.other.other.1729896587" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            <option id="gnu.cpp.compiler.option.other.other.1729896587" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1377629496" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                             						
                         </tool>
                         					
@@ -495,13 +505,13 @@
                         						
                         <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1713276612.1557354358" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1713276612">
                             							
-                            <option id="gnu.cpp.compiler.option.preprocessor.def.2129975551" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.2129975551" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
                                 								
                                 <listOptionValue builtIn="false" value="HLSLIB_SYNTHESIS"/>
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.include.paths.804024328" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                            <option id="gnu.cpp.compiler.option.include.paths.804024328" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
                                 								
                                 <listOptionValue builtIn="false" value="D:/xilinx/vitis/2020.1/include/ap_sysc"/>
                                 								
@@ -517,7 +527,9 @@
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.other.other.1765233042" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            <option id="gnu.cpp.compiler.option.other.other.1765233042" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.210492802" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                             						
                         </tool>
                         					
@@ -531,13 +543,13 @@
                         						
                         <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1713276612.2140680514" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1713276612">
                             							
-                            <option id="gnu.cpp.compiler.option.preprocessor.def.424641611" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.424641611" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
                                 								
                                 <listOptionValue builtIn="false" value="HLSLIB_SYNTHESIS"/>
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.include.paths.1260005717" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                            <option id="gnu.cpp.compiler.option.include.paths.1260005717" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
                                 								
                                 <listOptionValue builtIn="false" value="D:/xilinx/vitis/2020.1/include/ap_sysc"/>
                                 								
@@ -553,7 +565,9 @@
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.other.other.584475648" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            <option id="gnu.cpp.compiler.option.other.other.584475648" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1634060701" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                             						
                         </tool>
                         					
@@ -565,13 +579,13 @@
                         						
                         <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1713276612.1405256656" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1713276612">
                             							
-                            <option id="gnu.cpp.compiler.option.preprocessor.def.73440869" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.73440869" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
                                 								
                                 <listOptionValue builtIn="false" value="HLSLIB_SYNTHESIS"/>
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.include.paths.1819020320" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                            <option id="gnu.cpp.compiler.option.include.paths.1819020320" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
                                 								
                                 <listOptionValue builtIn="false" value="D:/xilinx/vitis/2020.1/include/ap_sysc"/>
                                 								
@@ -587,7 +601,9 @@
                                 							
                             </option>
                             							
-                            <option id="gnu.cpp.compiler.option.other.other.673389275" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            <option id="gnu.cpp.compiler.option.other.other.673389275" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++11 -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1009088857" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                             						
                         </tool>
                         					

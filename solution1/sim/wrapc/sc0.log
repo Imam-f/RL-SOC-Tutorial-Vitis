@@ -1,0 +1,7 @@
+   Build using "D:/xilinx/vitis/2020.1/tps/win64/msys64/mingw64/bin/g++"
+   Compiling apatb_VecDotProduct.cpp
+   Compiling Top.cpp_pre.cpp.tb.cpp
+   Compiling InterfaceModule.cpp_pre.cpp.tb.cpp
+   Compiling ComputationModule.cpp_pre.cpp.tb.cpp
+   Compiling Top_tb.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

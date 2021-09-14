@@ -1,0 +1,8 @@
+,VecDotProduct_entry43_U0,stalling1.csv,status1.csv
+,VecReader_U0,stalling2.csv,status2.csv
+,VecReader1_U0,stalling3.csv,status3.csv
+,EWiseMultipiler_U0,stalling4.csv,status4.csv
+,AdderTree_U0,stalling5.csv,status5.csv
+,Accumulator_U0,stalling6.csv,status6.csv
+,ScaWriter_U0,stalling7.csv,status7.csv
+,AESL_inst_VecDotProduct,,module_status1.csv
