@@ -1,0 +1,185 @@
+INFO-FLOW: Workspace C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/solution1 opened at Tue Sep 14 13:57:25 +0700 2021
+Execute     ap_set_clock -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib D:/xilinx/vitis/2020.1/common/technology/xilinx/zynquplus/zynquplus 
+Execute       source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/xilinx.lib 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/dsp48.lib 
+Execute       source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/xilinx.hlp 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/maxi.hlp 
+Execute           source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/dsp48.hlp 
+Execute       source D:/xilinx/vitis/2020.1/common/technology/xilinx/zynquplus/dsp48e2.hlp 
+Execute     source D:/xilinx/vitis/2020.1/common/technology/xilinx/zynquplus/zynquplus.gen 
+Execute       source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/saxilite.gen 
+Execute           source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/maxi.gen 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/ip/util.gen 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.413 sec.
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/dsp48.gen 
+Command       ap_source done; 0.612 sec.
+Command     ap_source done; 0.614 sec.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib D:/xilinx/vitis/2020.1/common/technology/xilinx/zynquplus/zynquplus_fpv7 
+Execute       source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/xilinx_fp.lib 
+Execute       source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/xilinx_fp.hlp 
+Execute         source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/xilinx.hlp 
+Execute           source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/maxi.hlp 
+Execute             source D:/xilinx/vitis/2020.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/dsp48.hlp 
+Execute     source D:/xilinx/vitis/2020.1/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
+Execute       source D:/xilinx/vitis/2020.1/common/technology/xilinx/common/xilinx_fp.gen 
+Execute     set_part xczu7ev-ffvc1156-2-e 
+INFO-FLOW: DBG:set_part: XILINX_VIVADO=D:/xilinx/Vivado/2020.1
+INFO-FLOW: DBG:set_part: RDI_DATADIR=D:/xilinx/Vivado/2020.1/data;D:/xilinx/vitis/2020.1/data
+Execute       ap_part_info -name xczu7ev-ffvc1156-2-e -data single -quiet 
+DBG:HLSDevice: Trying to load device library: D:/xilinx/vitis/2020.1\lib\win64.o\librdi_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: D:/xilinx/Vivado/2020.1/data/parts/arch.xml
+Command       ap_part_info done; 8.016 sec.
+Execute       ap_part_info -name xczu7ev-ffvc1156-2-e -data info 
+Execute       ap_family_info -name zynquplus -data info 
+Execute       add_library xilinx/zynquplus/zynquplus:xczu7ev:-ffvc1156:-2-e 
+Execute         get_default_platform 
+Execute         ap_part_info -data single -name xczu7ev-ffvc1156-2-e 
+Execute         ap_part_info -name xczu7ev-ffvc1156-2-e -data resources 
+Execute         config_chip_info -resource {SLICE 28800} {LUT 230400} {FF 460800} {DSP 1728} {BRAM 624} {URAM 96} 
+Execute         ap_part_info -name xczu7ev-ffvc1156-2-e -data info 
+Execute         config_chip_info -speed medium 
+Command       add_library done; 0.138 sec.
+Execute       add_library xilinx/zynquplus/zynquplus_fpv7 
+Execute         get_default_platform 
+INFO: [HLS 200-10] Setting target device to 'xczu7ev-ffvc1156-2-e'
+Execute       ap_part_info -name xczu7ev-ffvc1156-2-e -data info 
+Execute       get_default_platform 
+Command     set_part done; 8.476 sec.
+Execute     ap_part_info -data single -name xczu7ev-ffvc1156-2-e 
+Execute     ap_part_info -name xczu7ev-ffvc1156-2-e -data resources 
+Execute     config_chip_info -resource {SLICE 28800} {LUT 230400} {FF 460800} {DSP 1728} {BRAM 624} {URAM 96} 
+Execute     ap_part_info -name xczu7ev-ffvc1156-2-e -data info 
+Command     ap_part_info done; 0.11 sec.
+Execute     config_chip_info -speed medium 
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     get_config_interface -m_axi_latency 
+Execute     get_config_interface -m_axi_alignment_byte_size 
+Execute     get_config_interface -m_axi_max_widen_bitwidth 
+Execute     get_config_interface -default_interface 
+Execute     get_config_interface -default_slave_interface 
+Execute     get_config_rtl -register_reset_num 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -clock_enable=false 
+INFO: [HLS 200-1464] Running solution command: config_interface -clock_enable=false
+Execute     config_interface -clock_enable=false 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -default_slave_interface=none 
+INFO: [HLS 200-1464] Running solution command: config_interface -default_slave_interface=none
+Execute     config_interface -default_slave_interface=none 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_addr64=false 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_addr64=false
+Execute     config_interface -m_axi_addr64=false 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_alignment_byte_size=0 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_alignment_byte_size=0
+Execute     config_interface -m_axi_alignment_byte_size=0 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_auto_max_ports=false 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_auto_max_ports=false
+Execute     config_interface -m_axi_auto_max_ports=false 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_latency=0 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_latency=0
+Execute     config_interface -m_axi_latency=0 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_max_bitwidth=1024 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_max_bitwidth=1024
+Execute     config_interface -m_axi_max_bitwidth=1024 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_max_read_burst_length=16 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_max_read_burst_length=16
+Execute     config_interface -m_axi_max_read_burst_length=16 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_max_widen_bitwidth=0 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_max_widen_bitwidth=0
+Execute     config_interface -m_axi_max_widen_bitwidth=0 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_max_write_burst_length=16 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_max_write_burst_length=16
+Execute     config_interface -m_axi_max_write_burst_length=16 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_min_bitwidth=8 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_min_bitwidth=8
+Execute     config_interface -m_axi_min_bitwidth=8 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_num_read_outstanding=16 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_num_read_outstanding=16
+Execute     config_interface -m_axi_num_read_outstanding=16 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_num_write_outstanding=16 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_num_write_outstanding=16
+Execute     config_interface -m_axi_num_write_outstanding=16 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -m_axi_offset=off 
+INFO: [HLS 200-1464] Running solution command: config_interface -m_axi_offset=off
+Execute     config_interface -m_axi_offset=off 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -register_io=off 
+INFO: [HLS 200-1464] Running solution command: config_interface -register_io=off
+Execute     config_interface -register_io=off 
+Execute     send_msg_by_id INFO @200-1464@%s config_interface -s_axilite_data64=false 
+INFO: [HLS 200-1464] Running solution command: config_interface -s_axilite_data64=false
+Execute     config_interface -s_axilite_data64=false 
+Command   open_solution done; 9.671 sec.
+Execute   set_part xczu7ev-ffvc1156-2-e 
+INFO-FLOW: DBG:set_part: XILINX_VIVADO=D:/xilinx/Vivado/2020.1
+INFO-FLOW: DBG:set_part: RDI_DATADIR=D:/xilinx/Vivado/2020.1/data;D:/xilinx/vitis/2020.1/data
+Execute     ap_part_info -name xczu7ev-ffvc1156-2-e -data single -quiet 
+Execute     ap_part_info -name xczu7ev-ffvc1156-2-e -data info 
+Command     ap_part_info done; 0.11 sec.
+Execute     ap_family_info -name zynquplus -data info 
+Execute     add_library xilinx/zynquplus/zynquplus:xczu7ev:-ffvc1156:-2-e 
+Execute       get_default_platform 
+Execute       ap_part_info -data single -name xczu7ev-ffvc1156-2-e 
+Execute       ap_part_info -name xczu7ev-ffvc1156-2-e -data resources 
+Execute       config_chip_info -resource {SLICE 28800} {LUT 230400} {FF 460800} {DSP 1728} {BRAM 624} {URAM 96} 
+Execute       ap_part_info -name xczu7ev-ffvc1156-2-e -data info 
+Command       ap_part_info done; 0.133 sec.
+Execute       config_chip_info -speed medium 
+Command     add_library done; 0.206 sec.
+Execute     add_library xilinx/zynquplus/zynquplus_fpv7 
+Execute       get_default_platform 
+Execute     ap_part_info -name xczu7ev-ffvc1156-2-e -data info 
+Execute     get_default_platform 
+Command   set_part done; 0.613 sec.
+Execute   create_clock -period 10 -name default 
+Execute     ap_set_clock -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute   config_interface -default_slave_interface none -m_axi_addr64=0 -m_axi_alignment_byte_size 0 -m_axi_latency 0 -m_axi_max_bitwidth 1024 -m_axi_max_read_burst_length 16 -m_axi_max_widen_bitwidth 0 -m_axi_max_write_burst_length 16 -m_axi_min_bitwidth 8 -m_axi_num_read_outstanding 16 -m_axi_num_write_outstanding 16 -m_axi_offset off -register_io off 
+Execute   source ./MBKM-Tutorial5/solution1/directives.tcl 
+Execute   csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+Execute     is_encrypted C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/Top_tb.cpp 
+Execute     is_xip C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/Top_tb.cpp 
+Execute     is_encrypted C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/Top.h 
+Execute     is_xip C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/Top.h 
+Execute     is_encrypted C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/Top.cpp 
+Execute     is_xip C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/Top.cpp 
+Execute     is_encrypted C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/Stream.h 
+Execute     is_xip C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/Stream.h 
+Execute     is_encrypted C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/InterfaceModule.h 
+Execute     is_xip C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/InterfaceModule.h 
+Execute     is_encrypted C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/InterfaceModule.cpp 
+Execute     is_xip C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/InterfaceModule.cpp 
+Execute     is_encrypted C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/DataPack.h 
+Execute     is_xip C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/DataPack.h 
+Execute     is_encrypted C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/DataConfig.h 
+Execute     is_xip C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/DataConfig.h 
+Execute     is_encrypted C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/ComputationModule.h 
+Execute     is_xip C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/ComputationModule.h 
+Execute     is_encrypted C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/ComputationModule.cpp 
+Execute     is_xip C:/Users/dell/Documents/Dev/MBKM/MBKM-Tutorial5/ComputationModule.cpp 
+Execute     ap_part_info -name xczu7ev-ffvc1156-2-e -data info 
+Command     ap_part_info done; 0.145 sec.
+Execute     source run_sim.tcl 
+Command     ap_source done; 1.127 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; 28.18 sec.
+Command ap_source done; 38.939 sec.
+Execute cleanup_all 

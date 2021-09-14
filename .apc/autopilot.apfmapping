@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="ComputationModule.cpp" path="C:\Users\dell\Documents\Dev\MBKM\MBKM-Tutorial5\ComputationModule.cpp"/>
+    <originFiles name="ComputationModule.h" path="C:\Users\dell\Documents\Dev\MBKM\MBKM-Tutorial5\ComputationModule.h"/>
+    <originFiles name="DataConfig.h" path="C:\Users\dell\Documents\Dev\MBKM\MBKM-Tutorial5\DataConfig.h"/>
+    <originFiles name="DataPack.h" path="C:\Users\dell\Documents\Dev\MBKM\MBKM-Tutorial5\DataPack.h"/>
+    <originFiles name="InterfaceModule.cpp" path="C:\Users\dell\Documents\Dev\MBKM\MBKM-Tutorial5\InterfaceModule.cpp"/>
+    <originFiles name="InterfaceModule.h" path="C:\Users\dell\Documents\Dev\MBKM\MBKM-Tutorial5\InterfaceModule.h"/>
+    <originFiles name="Stream.h" path="C:\Users\dell\Documents\Dev\MBKM\MBKM-Tutorial5\Stream.h"/>
+    <originFiles name="Top.cpp" path="C:\Users\dell\Documents\Dev\MBKM\MBKM-Tutorial5\Top.cpp"/>
+    <originFiles name="Top.h" path="C:\Users\dell\Documents\Dev\MBKM\MBKM-Tutorial5\Top.h"/>
+  </source>
+  <testbench>
+    <originFiles name="Top_tb.cpp" path="C:\Users\dell\Documents\Dev\MBKM\MBKM-Tutorial5\Top_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

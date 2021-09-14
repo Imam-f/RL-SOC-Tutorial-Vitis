@@ -1,0 +1,11 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../Top_tb.cpp in debug mode
+   Compiling ../../../Top.cpp in debug mode
+   Compiling ../../../InterfaceModule.cpp in debug mode
+   Compiling ../../../ComputationModule.cpp in debug mode
+   Generating csim.exe
+Reference result 748740760
+Accelerator result 748740760
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
